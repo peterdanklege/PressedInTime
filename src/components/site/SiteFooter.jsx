@@ -7,7 +7,7 @@ export default function SiteFooter(){ return <footer className="site-footer">
 <<<<<<< HEAD
     <div><p>Keeping Morningside fresh since 2003.</p><div className="socials"><a href="https://www.facebook.com/PressedInTimeTheWedge/" aria-label="Facebook"><Facebook/></a><a href="https://www.instagram.com/pressedintimelaundry/" aria-label="Instagram"><Instagram/></a></div></div>
 =======
-    <div><div className="brand brand-light"><img src={logo} alt="Pressed in Time – The Wedge" className="footer-logo" /></div><p>Keeping Morningside fresh since 2003.</p><div className="socials"><a href="https://www.facebook.com/PressedInTimeTheWedge/" aria-label="Facebook"><Facebook/></a><a href="https://www.instagram.com/pressedintimelaundry/" aria-label="Instagram"><Instagram/></a></div></div>
+    <div></div><p>Keeping Morningside fresh since 2003.</p><div className="socials"><a href="https://www.facebook.com/PressedInTimeTheWedge/" aria-label="Facebook"><Facebook/></a><a href="https://www.instagram.com/pressedintimelaundry/" aria-label="Instagram"><Instagram/></a></div></div>
 >>>>>>> 4e977b5485ec8e519fd5821eaf150e601bee590f
     <div><h3>Explore</h3><Link to="/">Home</Link><Link to="/services">Services & Pricing</Link><Link to="/about">About & Contact</Link></div>
     <div><h3>Visit us</h3><p><MapPin/>The Wedge, 255 Rivonia Rd, Morningside</p><a href="tel:+27761324527"><Phone/>076 132 4527</a><a href="mailto:info@pressedintime.co.za"><Mail/>info@pressedintime.co.za</a></div>
