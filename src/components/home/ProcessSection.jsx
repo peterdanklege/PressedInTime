@@ -1,0 +1,5 @@
+import React from 'react';
+import { ShoppingBag, Sparkles, Truck } from 'lucide-react';
+import SectionTitle from '../site/SectionTitle';
+const steps = [['01', 'Drop it off', 'Visit us at The Wedge or arrange collection. We assess and tag every item.', ShoppingBag], ['02', 'Precision care', 'Our specialists clean, press and finish each garment with meticulous attention.', Sparkles], ['03', 'Ready on time', 'Collect in store or receive your order fresh, folded and ready to wear.', Truck]];
+export default function ProcessSection() {return <section className="dark-section"><div className="site-container"><SectionTitle eyebrow="The process" title="Care without complication." light /><div className="process-grid">{steps.map(([n, t, d, Icon]) => <article key={n}><span>{n}</span><Icon /><h3>{t}</h3><p>{d}</p></article>)}</div><a className="ochre-button" href="https://wa.me/27761324527" target="_blank" rel="noopener noreferrer">Arrange your service</a></div></section>;}

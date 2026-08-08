@@ -1,0 +1,2 @@
+import React from 'react';
+export default function PageHero({ eyebrow, title, body }) {return <section className="page-hero"><div className="crease-grid bg-[hsl(var(--sidebar-foreground))] text-[hsl(var(--sidebar-ring))]" /><div className="site-container relative z-10"><span className="eyebrow">{eyebrow}</span><h1>{title}</h1><p>{body}</p></div></section>;}
