@@ -19,9 +19,14 @@ export default function HomeHero() {
         <div className="hero-actions">
           <a className="glass-button" href="#services">Explore services <ArrowRight /></a>
           <div className="delivery-option-block">
-            <button className="delivery-option-btn">
+            <a
+              className="delivery-option-btn"
+              href="https://wa.me/27761324527?text=Hi%2C%20I%27d%20like%20to%20find%20out%20about%20delivery%20options."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Truck size={18} /> Delivery Options
-            </button>
+            </a>
             <p className="delivery-option-sub">
               We support Courier &amp; e-Hailing delivery services for pick-ups and drop-offs
             </p>

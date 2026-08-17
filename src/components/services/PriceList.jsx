@@ -102,12 +102,14 @@ const DATA = {
   },
 };
 
-export default function PriceList() {
-  const [active, setActive] = useState(TABS[0]);
+export default function PriceList({ activeTab, onTabChange }) {
+  const [internalActive, setInternalActive] = useState(TABS[0]);
+  const active = activeTab ?? internalActive;
+  const setActive = onTabChange ?? setInternalActive;
   const tab = DATA[active];
 
   return (
-    <section className="price-list-section">
+    <section className="price-list-section" id="price-list">
       <div className="site-container">
         <div className="pl-header">
           <span className="eyebrow">Transparent pricing</span>

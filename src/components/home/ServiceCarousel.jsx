@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowUpRight } from 'lucide-react';
 
 const services = [
@@ -31,7 +32,7 @@ export default function ServiceCarousel() {
     <div className="service-carousel-wrap">
       <div className="service-carousel" ref={scrollRef} onScroll={handleScroll}>
         {services.map((s, i) => (
-          <article className="service-visual" key={s.name}>
+          <Link to="/services" className="service-visual" key={s.name} aria-label={`View ${s.name} — Services & Pricing`}>
             <img
               src={s.img}
               alt={`${s.name} fabric detail`}
@@ -43,9 +44,9 @@ export default function ServiceCarousel() {
                 <span>0{i + 1}</span>
                 <h3>{s.name}</h3>
               </div>
-              <a href="/services" aria-label={`View ${s.name}`}><ArrowUpRight /></a>
+              <span aria-hidden="true"><ArrowUpRight /></span>
             </div>
-          </article>
+          </Link>
         ))}
       </div>
 
