@@ -114,7 +114,7 @@ export default function PriceList() {
           <h2>Full Price List</h2>
           <p>Download our complete price list or browse by category below.</p>
           <a
-            href="/src/assets/price-list.pdf"
+            href="/price-list.pdf"
             download="Pressed-In-Time-Price-List.pdf"
             className="pl-download-btn"
           >

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Check } from 'lucide-react';
+import { ArrowRight, Check, Truck } from 'lucide-react';
 
 const heroImg = 'https://media.base44.com/images/public/6a69c8ab5a3d20a81865d7e6/c43b0ea03_generated_7b1a8d75.png';
 
@@ -18,9 +18,17 @@ export default function HomeHero() {
         <p>Professional laundry, dry cleaning and garment care — handled with precision and returned ready to wear.</p>
         <div className="hero-actions">
           <a className="glass-button" href="#services">Explore services <ArrowRight /></a>
+          <div className="delivery-option-block">
+            <button className="delivery-option-btn">
+              <Truck size={18} /> Delivery Options
+            </button>
+            <p className="delivery-option-sub">
+              We support Courier &amp; e-Hailing delivery services for pick-ups and drop-offs
+            </p>
+          </div>
         </div>
         <div className="trust-row">
-          {['24hr turnaround', 'Delivery available', 'Serving since 2003'].map(x => (
+          {['24hr turnaround', 'Delivery available', 'Serving since 2025'].map(x => (
             <span key={x}><Check /> {x}</span>
           ))}
         </div>

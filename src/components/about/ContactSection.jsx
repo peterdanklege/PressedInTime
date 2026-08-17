@@ -4,7 +4,7 @@ import { MapPin, Phone, Mail, Clock } from 'lucide-react';
 const info = [
   [MapPin, 'Location', 'The Wedge Shopping Centre, 255 Rivonia Rd, Morningside'],
   [Phone, 'Phone', '076 132 4527'],
-  [Mail, 'Email', 'info@pressedintime.co.za'],
+  [Mail, 'Email', 'thewedge@pressedintime.co.za'],
   [Clock, 'Hours', ['Mon – Fri: 8 am – 6 pm', 'Saturday: 8 am – 4 pm', 'Sunday: 8 am – 3 pm']],
 ];
 

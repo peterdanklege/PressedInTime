@@ -7,10 +7,10 @@ export default function SiteFooter() {
     <footer className="site-footer">
       <div className="site-container footer-grid">
         <div>
-          <p>Keeping Morningside fresh since 2003.</p>
+          <p>Keeping Morningside fresh since 2025.</p>
           <div className="socials">
             <a href="https://www.facebook.com/PressedInTimeTheWedge/" aria-label="Facebook"><Facebook /></a>
-            <a href="https://www.instagram.com/pressedintimelaundry/" aria-label="Instagram"><Instagram /></a>
+            <a href="https://www.instagram.com/pitthewedge/" aria-label="Instagram"><Instagram /></a>
           </div>
         </div>
         <div>
@@ -23,7 +23,7 @@ export default function SiteFooter() {
           <h3>Visit us</h3>
           <p><MapPin />The Wedge, 255 Rivonia Rd, Morningside</p>
           <a href="tel:+27761324527"><Phone />076 132 4527</a>
-          <a href="mailto:info@pressedintime.co.za"><Mail />info@pressedintime.co.za</a>
+          <a href="mailto:thewedge@pressedintime.co.za"><Mail />thewedge@pressedintime.co.za</a>
         </div>
       </div>
       <div className="site-container footer-bottom">
