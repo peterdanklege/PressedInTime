@@ -5,6 +5,7 @@ import ServiceGrid from '@/components/services/ServiceGrid';
 import TurnaroundTable from '@/components/services/TurnaroundTable';
 import DeliverySection from '@/components/services/DeliverySection';
 import PriceList from '@/components/services/PriceList';
+import { trackWhatsAppClick } from '@/utils/googleAdsConversion';
 
 export default function Services() {
   useEffect(() => { document.title = 'Services & Pricing | Pressed in Time Morningside'; }, []);
@@ -32,7 +33,7 @@ export default function Services() {
       <section className="quote-strip">
         <h2>Not sure what you need?</h2>
         <p>Send us a photo or description and we will guide you.</p>
-        <a className="ochre-button" href="https://wa.me/27761324527">WhatsApp for a quote</a>
+        <a className="ochre-button" href="https://wa.me/27761324527" onClick={trackWhatsAppClick}>WhatsApp for a quote</a>
       </section>
     </>
   );

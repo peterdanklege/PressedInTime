@@ -1,5 +1,6 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { trackWhatsAppClick } from '@/utils/googleAdsConversion';
 
 const info = [
   [MapPin, 'Location', 'The Wedge Shopping Centre, 255 Rivonia Rd, Morningside'],
@@ -27,7 +28,7 @@ export default function ContactSection() {
               </div>
             </article>
           ))}
-          <a className="wa-button" href="https://wa.me/27761324527" target="_blank" rel="noopener noreferrer">WhatsApp us directly</a>
+          <a className="wa-button" href="https://wa.me/27761324527" target="_blank" rel="noopener noreferrer" onClick={trackWhatsAppClick}>WhatsApp us directly</a>
         </div>
       </div>
     </section>

@@ -3,6 +3,7 @@ import { Outlet } from 'react-router-dom';
 import SiteNav from './SiteNav';
 import SiteFooter from './SiteFooter';
 import { MessageCircle } from 'lucide-react';
+import { trackWhatsAppClick } from '@/utils/googleAdsConversion';
 
 export default function SiteLayout() {
   return (
@@ -18,6 +19,7 @@ export default function SiteLayout() {
         rel="noopener noreferrer"
         className="wa-float"
         aria-label="Chat with Pressed in Time on WhatsApp"
+        onClick={trackWhatsAppClick}
       >
         <span>Chat with us</span>
         <MessageCircle />

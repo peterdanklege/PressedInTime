@@ -9,6 +9,32 @@
       gtag('js', new Date());
       gtag('config', 'AW-17710348437');
     </script>
+
+    <!-- Event snippet for WhatsApp Enquiry conversion page -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17710348437/Nc2hCIysw-YcEJXx-fxB',
+          'value': 1.0,
+          'currency': 'ZAR',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Phone conversion snippet -->
+    <script>
+      gtag('config', 'AW-17710348437/iUbWCP_VyOYcEJXx-fxB', {
+        'phone_conversion_number': '0761324527'
+      });
+    </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Premium laundry, dry cleaning and garment care at The Wedge, Morningside, with convenient collection and delivery in Sandton." />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Clock } from 'lucide-react';
+import { trackWhatsAppClick } from '@/utils/googleAdsConversion';
 
 const hours = [
   ['Sunday', '8 am – 3 pm'],
@@ -19,7 +20,7 @@ export default function BusinessHours() {
           <span className="eyebrow">When we're open</span>
           <h2 className="font-heading text-[clamp(38px,5vw,64px)] leading-tight text-[#1d3369]">Open 7 days a week.</h2>
           <p className="mt-5 text-[#3b4a6b] leading-relaxed max-w-md">Convenient hours at The Wedge Shopping Centre, Morningside — so your garment care fits around your schedule.</p>
-          <a className="wa-button mt-8" href="https://wa.me/27761324527" target="_blank" rel="noopener noreferrer">WhatsApp us</a>
+          <a className="wa-button mt-8" href="https://wa.me/27761324527" target="_blank" rel="noopener noreferrer" onClick={trackWhatsAppClick}>WhatsApp us</a>
         </div>
         <div className="bg-white border border-[#d8e0ea] rounded-2xl p-8">
           <div className="flex items-center gap-3 mb-6">
