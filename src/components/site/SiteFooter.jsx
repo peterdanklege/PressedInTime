@@ -22,7 +22,7 @@ export default function SiteFooter() {
         <div>
           <h3>Visit us</h3>
           <p><MapPin />The Wedge, 255 Rivonia Rd, Morningside</p>
-          <a href="tel:+27761324527"><Phone />076 132 4527</a>
+          <a href="tel:+27761324527" className="footer-phone"><Phone />076 132 4527</a>
           <a href="mailto:thewedge@pressedintime.co.za"><Mail />thewedge@pressedintime.co.za</a>
         </div>
       </div>
