@@ -1,6 +1,5 @@
 import React from 'react';
-import { ArrowRight, Check, Truck } from 'lucide-react';
-import { trackWhatsAppClick } from '@/utils/googleAdsConversion';
+import { ArrowRight, Check } from 'lucide-react';
 
 const heroImg = 'https://media.base44.com/images/public/6a69c8ab5a3d20a81865d7e6/c43b0ea03_generated_7b1a8d75.png';
 
@@ -20,15 +19,6 @@ export default function HomeHero() {
         <div className="hero-actions">
           <a className="glass-button" href="#services">Explore services <ArrowRight /></a>
           <div className="delivery-option-block">
-            <a
-              className="delivery-option-btn"
-              href="https://wa.me/27761324527?text=Hi%2C%20I%27d%20like%20to%20find%20out%20about%20delivery%20options."
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={trackWhatsAppClick}
-            >
-              <Truck size={18} /> Delivery Options
-            </a>
             <p className="delivery-option-sub">
               We support Courier &amp; e-Hailing delivery services for pick-ups and drop-offs
             </p>
