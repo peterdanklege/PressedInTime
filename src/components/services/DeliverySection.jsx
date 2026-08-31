@@ -1,7 +1,5 @@
 import React from 'react';
-import { ArrowUpRight } from 'lucide-react';
 import SectionTitle from '../site/SectionTitle';
-import { trackWhatsAppClick } from '@/utils/googleAdsConversion';
 
 const steps = [
   'Message us with your collection area',
@@ -25,15 +23,6 @@ export default function DeliverySection() {
               <li key={x}><b>0{i + 1}</b>{x}</li>
             ))}
           </ol>
-          <a
-            className="ink-button"
-            href="https://wa.me/27761324527"
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={trackWhatsAppClick}
-          >
-            Arrange collection <ArrowUpRight />
-          </a>
         </div>
         <img
           src="https://media.base44.com/images/public/6a69c8ab5a3d20a81865d7e6/3eab11b9f_generated_9c02597a.png"

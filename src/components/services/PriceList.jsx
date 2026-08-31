@@ -19,7 +19,6 @@ const DATA = {
       {
         heading: 'Bulk Specials',
         rows: [
-          ['5 kg Express Wash, Dry & Fold', 'R 235', 'Save R 25', ''],
           ['10 kg Family Wash, Dry & Fold', 'R 395', 'Save R 125', ''],
         ],
       },
