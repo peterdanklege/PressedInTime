@@ -3,7 +3,6 @@ import PageHero from '@/components/site/PageHero';
 import SectionTitle from '@/components/site/SectionTitle';
 import ServiceGrid from '@/components/services/ServiceGrid';
 import TurnaroundTable from '@/components/services/TurnaroundTable';
-import DeliverySection from '@/components/services/DeliverySection';
 import PriceList from '@/components/services/PriceList';
 import { trackWhatsAppClick } from '@/utils/googleAdsConversion';
 
@@ -29,7 +28,6 @@ export default function Services() {
       </section>
       <PriceList activeTab={priceTab} onTabChange={setPriceTab} />
       <TurnaroundTable />
-      <DeliverySection />
       <section className="quote-strip">
         <h2>Not sure what you need?</h2>
         <p>Send us a photo or description and we will guide you.</p>
