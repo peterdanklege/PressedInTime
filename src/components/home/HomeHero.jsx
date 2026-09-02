@@ -25,7 +25,7 @@ export default function HomeHero() {
           </div>
         </div>
         <div className="trust-row">
-          {['24hr turnaround', 'Delivery available', 'Serving since 2025'].map(x => (
+          {['24hr turnaround', 'Serving since 2025'].map(x => (
             <span key={x}><Check /> {x}</span>
           ))}
         </div>
