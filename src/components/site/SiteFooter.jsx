@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, Facebook, MapPin, Phone, Mail } from 'lucide-react';
+import { trackEmailClick } from '@/utils/googleAdsConversion';
 
 export default function SiteFooter() {
   return (
@@ -23,7 +24,7 @@ export default function SiteFooter() {
           <h3>Visit us</h3>
           <p><MapPin />The Wedge, 255 Rivonia Rd, Morningside</p>
           <a href="tel:+27761324527" className="footer-phone"><Phone />076 132 4527</a>
-          <a href="mailto:thewedge@pressedintime.co.za"><Mail />thewedge@pressedintime.co.za</a>
+          <a href="mailto:thewedge@pressedintime.co.za" onClick={trackEmailClick}><Mail />thewedge@pressedintime.co.za</a>
         </div>
       </div>
       <div className="site-container footer-bottom">

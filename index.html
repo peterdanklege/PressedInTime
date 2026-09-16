@@ -36,6 +36,24 @@
     }
     </script>
 
+    <!-- Event snippet for Contact conversion page -->
+    <script>
+    function gtag_report_contact_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17710348437/XpRoCJepyPAcEJXx-fxB',
+          'value': 1.0,
+          'currency': 'ZAR',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
     <!-- Phone conversion snippet -->
     <script>
       gtag('config', 'AW-17710348437/iUbWCP_VyOYcEJXx-fxB', {
