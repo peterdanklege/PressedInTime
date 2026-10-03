@@ -18,11 +18,7 @@ export default function HomeHero() {
         <p>Professional laundry, dry cleaning and garment care — handled with precision and returned ready to wear.</p>
         <div className="hero-actions">
           <a className="glass-button" href="#services">Explore services <ArrowRight /></a>
-          <div className="delivery-option-block">
-            <p className="delivery-option-sub">
-              We support Courier &amp; e-Hailing delivery services for pick-ups and drop-offs
-            </p>
-          </div>
+
         </div>
         <div className="trust-row">
           {['24hr turnaround', 'Serving since 2025'].map(x => (
