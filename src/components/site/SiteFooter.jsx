@@ -28,7 +28,7 @@ export default function SiteFooter() {
         </div>
       </div>
       <div className="site-container footer-bottom">
-        <span>© {new Date().getFullYear()} Pressed in Time — The Wedge</span>
+        <span>© {new Date().getFullYear()} Pressed In Time The Wedge</span>
         <span>Garment care, precisely delivered.</span>
       </div>
     </footer>

@@ -7,7 +7,7 @@ import PriceList from '@/components/services/PriceList';
 import { trackWhatsAppClick } from '@/utils/googleAdsConversion';
 
 export default function Services() {
-  useEffect(() => { document.title = 'Services & Pricing | Pressed in Time Morningside'; }, []);
+  useEffect(() => { document.title = 'Services & Pricing | Pressed In Time The Wedge'; }, []);
 
   const [priceTab, setPriceTab] = useState('Laundry');
 

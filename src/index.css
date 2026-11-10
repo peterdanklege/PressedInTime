@@ -139,9 +139,11 @@ h1,h2 { font-family:'Playfair Display',serif; letter-spacing:-.035em; }
 .dark-section .ochre-button { display: inline-flex; width: fit-content; margin: 0 auto; text-align: center; }
 
 /* ── LOGO ── */
-.nav-logo { height: 52px; width: auto; object-fit: contain; display: block; filter: none; }
+.nav-logo { height: 64px; width: auto; object-fit: contain; display: block; filter: none; }
+.brand { align-items:center; gap:14px; }
+.brand-name { font:700 20px/1.1 'Playfair Display',serif; color:#1d3369; white-space:normal; } .brand-name span { display:block; font:600 13px 'DM Sans',sans-serif; letter-spacing:.14em; text-transform:uppercase; color:#44aadd; margin-top:3px; }
 .footer-logo { height: 56px; width: auto; object-fit: contain; display: block; filter: brightness(0) invert(1); opacity: 0.85; }
-@media(max-width:768px) { .nav-logo { height: 42px; } }
+@media(max-width:768px) { .nav-logo { height: 48px; } .brand { gap:10px; } .brand-name { font-size:15px; } .brand-name span { font-size:11px; letter-spacing:.1em; } }
 
 /* ── PRICE LIST ── */
 .price-list-section { padding: 120px 0; background: #f8f9fb; }
